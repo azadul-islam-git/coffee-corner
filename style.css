@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2E2622;
+    padding: 26px 8%;
+}
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.coffee-color{
+    color: #E9B44C;
+}
