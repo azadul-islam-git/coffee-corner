@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+section{
+    padding: 80px 8%;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -43,9 +47,11 @@ header{
     margin-left: 40%;
     width: 25%;
     background-color: #E9B44C;
-    padding: 14px 34px;
+    padding: 14px 0;
     border-radius: 30px;
     font-weight: 800;
+    border: none;
+    cursor: pointer;
 }
 .header-para-one{
     color: #E9B44C;
@@ -57,4 +63,52 @@ header{
 .header-title{
     font-weight: bold;
     font-size: 52px;
+}
+
+/* story */
+.our-story {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 50px;
+}
+
+.our-story img {
+    width: 100%;
+    display: block;
+    border-radius: 16px;
+}
+
+.story-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.story-right h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #2B211E;
+    margin-bottom: 24px;
+}
+
+.story-right p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #5A4F47;
+    margin-bottom: 18px;
+    max-width: 500px;
+}
+
+.story-right button {
+    margin-top: 18px;
+    padding: 16px 36px;
+    background: #E9B44C;
+    color: #2B211E;
+    font-size: 15px;
+    font-weight: 800;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
 }
