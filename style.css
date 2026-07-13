@@ -22,3 +22,39 @@ a {
 .coffee-color{
     color: #E9B44C;
 }
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./image/bg-image.avif") ;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content{
+    color: white;
+    text-align: center;
+    display: grid;
+    gap: 20px;
+}
+.header-content button{
+    margin-left: 40%;
+    width: 25%;
+    background-color: #E9B44C;
+    padding: 14px 34px;
+    border-radius: 30px;
+    font-weight: 800;
+}
+.header-para-one{
+    color: #E9B44C;
+    font-size: 14px;
+}
+.header-para-two{
+    font-size: 18px;
+}
+.header-title{
+    font-weight: bold;
+    font-size: 52px;
+}
